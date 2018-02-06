@@ -10,6 +10,9 @@ namespace Kohvik
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            Kohvik kohvik = new Kohvik();
+            kohvik.Käima();
         }
     }
 }

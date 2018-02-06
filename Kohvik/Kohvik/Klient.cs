@@ -8,7 +8,7 @@ namespace Kohvik
 {
     class Klient
     {
-        public double Raha = 10;
+        public double Raha = 10.0;
         public List<Ostetud> OstetudAsjad = new List<Ostetud>();
 
         public void Money()
@@ -26,12 +26,13 @@ namespace Kohvik
             }
 
             Console.WriteLine("Teil on tellitud järgmised: ");
+            Console.WriteLine();
 
             foreach (Ostetud ost in OstetudAsjad)
             {
                 Console.WriteLine(ost.Nimi);
-                Console.WriteLine();
             }
+            Console.WriteLine();
         }
     }
 }

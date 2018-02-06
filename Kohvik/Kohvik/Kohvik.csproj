@@ -46,11 +46,14 @@
     <Compile Include="Espresso.cs" />
     <Compile Include="Klient.cs" />
     <Compile Include="Kohvik.cs" />
+    <Compile Include="Kook.cs" />
     <Compile Include="Latte.cs" />
     <Compile Include="Must kohv.cs" />
     <Compile Include="Ostetud.cs" />
+    <Compile Include="Praad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
